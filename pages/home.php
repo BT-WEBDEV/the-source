@@ -19,7 +19,7 @@ get_header();
             <div>
                 <div class="hero-video view">
                     <video class="video-fluid img-fit" autoplay loop muted>
-                        <source src="<?php echo get_template_directory_uri(); ?>/images/home_hero.mp4"
+                        <source src="<?php echo get_template_directory_uri(); ?>/images/home_hero_video.mp4"
                             type="video/mp4" />
                     </video>
                     <div class="mask">
