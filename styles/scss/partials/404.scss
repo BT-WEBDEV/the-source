@@ -1,0 +1,34 @@
+.error-404 {
+    min-height: 50vh;
+
+    .error-message {
+        width: 900px;
+    }
+
+    h1 {
+        width: 50%;
+        margin: 0 auto 40px auto;
+    }
+
+    .search-form {
+        margin-bottom: 10px;
+        .search-field {
+            padding: 8px 15px;
+        }
+        .search-submit {
+            padding: 8px 30px;
+        }
+    }
+
+    .sitemap-link {
+        font-size: 18px;
+
+        i {
+            font-size: 12px;
+            position: relative;
+            bottom: 1px;
+        }
+    }
+
+
+}

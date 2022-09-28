@@ -1,0 +1,63 @@
+/* IE Version update TAB */
+#VersionTab {
+    z-index: 99999;
+    position: absolute;
+    top: 100px;
+    color: red;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    background-color: yellow;
+    height: 100px;
+    line-height: 100px;
+
+    a {
+        color: blue;
+    }
+}
+
+.bg-center {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+html {
+    width: 100%;
+    background-color: rgba($color: #EFEFEF, $alpha: 0.5);
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    // color: #1d1d1f;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    -webkit-transition: color 300ms, background-color 300ms;
+    -moz-transition: color 300ms, background-color 300ms;
+    -o-transition: color 300ms, background-color 300ms;
+    transition: color 300ms, background-color 300ms;
+    color: #0070c9;
+    @include transition(all 0.5s ease);
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.outline {
+    display: none;
+}
+
+#success_message {
+    display: none;
+
+    h3 {
+        line-height: 1.5;
+        font-size: 22px;
+    }
+}

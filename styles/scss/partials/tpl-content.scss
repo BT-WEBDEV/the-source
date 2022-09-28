@@ -1,0 +1,67 @@
+.search-form {
+    label {
+        margin: 0px;
+    }
+    .search-field {
+        outline-offset: 0;
+        border: 1px solid rgb(139, 139, 139);
+        padding: 4px 10px;
+    }
+
+    .search-submit {
+        background-color: white;
+        box-shadow: none;
+        border: 1px solid rgb(139, 139, 139);
+        padding: 4px 20px;
+    }
+}
+
+.search-result { 
+    .search-form {
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+    hr {
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .total-found {
+        font-size: 14px;
+        margin-top: 2px;
+    }
+    .found {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.search-result-item {
+    article {
+        .entry-header {
+            margin-bottom: 5px;
+            .entry-title {
+                margin-bottom: 0px;
+                font-weight: 500;
+            }
+            .entry-meta {
+                font-size: 12px;
+            }
+        }
+        a {
+            color: black;
+        }
+    }
+    article:last-child {
+        hr {
+            display: none;
+        }
+    }
+}
+
+.nothing-found {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+}
