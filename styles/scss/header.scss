@@ -8,6 +8,10 @@
 	// margin-top: 73px;
 }
 
+#main-nav {
+	padding-left: 125px; 
+}
+
 .custom-navbar {
 	// background-color: black;
 	@include transition(all 0.5s ease);
@@ -149,6 +153,11 @@
 
 // Tablet
 @media (min-width: $screen-sm) and (max-width: $screen-md) {
+	
+	#main-nav {
+		padding-left: 100px; 
+	}
+
 	.custom-navbar {
 		// background-color: black;
 		padding-top: 10px;
